@@ -68,7 +68,8 @@ class MyThreads implements Runnable
             try
             {
                 digest = MessageDigest.getInstance("SHA-256");
-            } catch (NoSuchAlgorithmException e)
+            } 
+            catch (NoSuchAlgorithmException e)
             {
                 e.printStackTrace();
             }
