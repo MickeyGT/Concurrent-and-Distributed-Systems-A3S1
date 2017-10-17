@@ -21,7 +21,8 @@ public class MainClass
             try
             {
                 myThreads[i].join();
-            } catch (InterruptedException e)
+            } 
+            catch (InterruptedException e)
             {
                 e.printStackTrace();
             }
