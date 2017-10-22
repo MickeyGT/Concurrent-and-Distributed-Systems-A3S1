@@ -21,8 +21,7 @@ public class MainClass
             try
             {
                 myThreads[i].join();
-            } 
-            catch (InterruptedException e)
+            } catch (InterruptedException e)
             {
                 e.printStackTrace();
             }
@@ -35,6 +34,7 @@ public class MainClass
 class MyThreads implements Runnable
 {
     private int threadNumber,totalNrOfThreads;
+    volatile static boolean runningFlag=true;
 
     public MyThreads(int number,int nrOfThreads)
     {
@@ -55,6 +55,11 @@ class MyThreads implements Runnable
         return hexString.toString();
     }
 
+    private void stopRunning()
+    {
+        runningFlag=false;
+    }
+
     @Override
     public void run()
     {
@@ -63,13 +68,17 @@ class MyThreads implements Runnable
         String correctAnswer="88B8F3C04619DC8F4582802A9B3863FF99714F5EB5B2715EB84636DB797F97FC";
         for(int i=start;i<=end;i++)
         {
+            if(runningFlag==false)
+            {
+                System.out.println("Thread "+threadNumber+" is done.");
+                return;
+            }
             String originalString = Integer.toString(i);
             MessageDigest digest = null;
             try
             {
                 digest = MessageDigest.getInstance("SHA-256");
-            } 
-            catch (NoSuchAlgorithmException e)
+            } catch (NoSuchAlgorithmException e)
             {
                 e.printStackTrace();
             }
@@ -79,10 +88,10 @@ class MyThreads implements Runnable
             if(hashedNumber.equals(correctAnswer))
             {
                 System.out.println("The answer is:"+i);
+                stopRunning();
                 // Answer should be 24296545
             }
         }
-        System.out.println("Thread "+threadNumber+" is done.");
-    }
 
+    }
 }
