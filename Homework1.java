@@ -63,7 +63,7 @@ class MyThreads implements Runnable
     @Override
     public void run()
     {
-        int start = 10000000+((90000000)/totalNrOfThreads+1)*(threadNumber);
+        int start = 10000000+((90000000)/totalNrOfThreads)*(threadNumber)+1;
         int end=start+((90000000)/totalNrOfThreads+1);
         String correctAnswer="88B8F3C04619DC8F4582802A9B3863FF99714F5EB5B2715EB84636DB797F97FC";
         for(int i=start;i<=end;i++)
@@ -87,7 +87,7 @@ class MyThreads implements Runnable
             hashedNumber=hashedNumber.toUpperCase();
             if(hashedNumber.equals(correctAnswer))
             {
-                System.out.println("The answer is:"+i);
+                System.out.println("The answer is:"+i+" and it was found in thread "+threadNumber);
                 stopRunning();
                 // Answer should be 24296545
             }
