@@ -1,0 +1,82 @@
+The number of cars on the LEFT side is:5
+The number of cars on the RIGHT side is:0
+The number of maximum cars on bridge at one point is:1
+LEFT side semaphore is GREEN.
+RIGHT side smeaphore is RED.
+No cars on right side, keeping left semaphore GREEN.
+Clearing 1 car coming from LEFT to enter tunnel.
+Car coming from direction LEFT entering tunnel.
+No cars on right side, keeping left semaphore GREEN.
+Car cleared, but bridge is full. Waiting for capacity to decrease.
+Car coming from direction LEFT exiting tunnel.
+Clearing 1 car coming from LEFT to enter tunnel.
+Car coming from direction LEFT entering tunnel.
+No cars on right side, keeping left semaphore GREEN.
+Car cleared, but bridge is full. Waiting for capacity to decrease.
+Car coming from direction LEFT exiting tunnel.
+Clearing 1 car coming from LEFT to enter tunnel.
+Car coming from direction LEFT entering tunnel.
+No cars on right side, keeping left semaphore GREEN.
+Car cleared, but bridge is full. Waiting for capacity to decrease.
+Car coming from direction LEFT exiting tunnel.
+Clearing 1 car coming from LEFT to enter tunnel.
+Car coming from direction LEFT entering tunnel.
+No cars on right side, keeping left semaphore GREEN.
+Car cleared, but bridge is full. Waiting for capacity to decrease.
+Car coming from direction LEFT exiting tunnel.
+Clearing 1 car coming from LEFT to enter tunnel.
+Car coming from direction LEFT entering tunnel.
+No cars on right side, keeping left semaphore GREEN.
+Car cleared, but bridge is full. Waiting for capacity to decrease.
+Car coming from direction LEFT exiting tunnel.
+Clearing 1 car coming from LEFT to enter tunnel.
+Car coming from direction LEFT entering tunnel.
+No cars on right side, keeping left semaphore GREEN.
+Car cleared, but bridge is full. Waiting for capacity to decrease.
+Car coming from direction LEFT exiting tunnel.
+Clearing 1 car coming from LEFT to enter tunnel.
+Car coming from direction LEFT entering tunnel.
+No cars on right side, keeping left semaphore GREEN.
+Car cleared, but bridge is full. Waiting for capacity to decrease.
+Car coming from direction LEFT exiting tunnel.
+Clearing 1 car coming from LEFT to enter tunnel.
+Car coming from direction LEFT entering tunnel.
+No cars on right side, keeping left semaphore GREEN.
+Car cleared, but bridge is full. Waiting for capacity to decrease.
+Car coming from direction LEFT exiting tunnel.
+Clearing 1 car coming from LEFT to enter tunnel.
+Car coming from direction LEFT entering tunnel.
+No cars on right side, keeping left semaphore GREEN.
+Car cleared, but bridge is full. Waiting for capacity to decrease.
+Car coming from direction LEFT exiting tunnel.
+Clearing 1 car coming from LEFT to enter tunnel.
+Car coming from direction LEFT entering tunnel.
+No cars on right side, keeping left semaphore GREEN.
+Car cleared, but bridge is full. Waiting for capacity to decrease.
+Car coming from direction LEFT exiting tunnel.
+Clearing 1 car coming from LEFT to enter tunnel.
+Car coming from direction LEFT entering tunnel.
+No cars on right side, keeping left semaphore GREEN.
+Car cleared, but bridge is full. Waiting for capacity to decrease.
+Car coming from direction LEFT exiting tunnel.
+Clearing 1 car coming from LEFT to enter tunnel.
+Car coming from direction LEFT entering tunnel.
+No cars on right side, keeping left semaphore GREEN.
+Car cleared, but bridge is full. Waiting for capacity to decrease.
+Car coming from direction LEFT exiting tunnel.
+Clearing 1 car coming from LEFT to enter tunnel.
+Car coming from direction LEFT entering tunnel.
+No cars on right side, keeping left semaphore GREEN.
+Car cleared, but bridge is full. Waiting for capacity to decrease.
+Car coming from direction LEFT exiting tunnel.
+Clearing 1 car coming from LEFT to enter tunnel.
+Car coming from direction LEFT entering tunnel.
+No cars on right side, keeping left semaphore GREEN.
+Car cleared, but bridge is full. Waiting for capacity to decrease.
+Car coming from direction LEFT exiting tunnel.
+Clearing 1 car coming from LEFT to enter tunnel.
+Car coming from direction LEFT entering tunnel.
+No cars on right side, keeping left semaphore GREEN.
+LEFT side semaphore is RED.
+Car coming from direction LEFT exiting tunnel.
+No more cars on either side. Exiting.

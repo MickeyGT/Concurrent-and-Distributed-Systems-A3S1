@@ -1,0 +1,3 @@
+The number of cars on the LEFT side is:3
+The number of cars on the RIGHT side is:1
+The number of maximum cars on bridge at one point is:2
